@@ -95,7 +95,7 @@ function Home() {
                       </span>
                     </div>
                     <Link
-                      to={`/recipe/${recipe.id}`}
+                      to={`/Tasty_Bites_assignment_VirtuNexa_3/recipe/${recipe.id}`}
                       className="bg-primary-100 text-primary-300 px-4 py-2 rounded-md hover:bg-primary-200 transition-colors"
                     >
                       View Recipe
