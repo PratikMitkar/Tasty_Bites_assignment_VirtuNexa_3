@@ -39,7 +39,6 @@ const dummyData = [
     instructions: "Toss lettuce with dressing. Add croutons and cheese.",
     comments: [],
   },
-  // Add more dummy recipes as needed
 ];
 
 function RecipeDetail() {
@@ -50,8 +49,8 @@ function RecipeDetail() {
   const [commentRating, setCommentRating] = useState(0);
 
   useEffect(() => {
-    // Get recipes from localStorage
-    const storedRecipes = JSON.parse(localStorage.getItem("recipes")) || dummyData; // Use dummyData if nothing in localStorage
+    // Get recipes from localStorage or use dummy data
+    const storedRecipes = JSON.parse(localStorage.getItem("recipes")) || dummyData; 
     const selectedRecipe = storedRecipes.find((r) => r.id === parseInt(id, 10));
 
     if (selectedRecipe) {

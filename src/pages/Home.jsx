@@ -31,7 +31,6 @@ const dummyData = [
     prepTime: "15 min",
     servings: 2,
   },
-  // Add more recipes here if needed
 ];
 
 function Home() {
