@@ -13,10 +13,10 @@ function App() {
         <Header />
         <main className="flex-grow container mx-auto px-4 py-8">
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/recipe/:id" element={<RecipeDetail />} />
-            <Route path="/upload" element={<UploadRecipe />} />
-            <Route path="/search" element={<Search />} />
+            <Route path="/Tasty_Bites_assignment_VirtuNexa_3/" element={<Home />} />
+            <Route path="/Tasty_Bites_assignment_VirtuNexa_3/recipe/:id" element={<RecipeDetail />} />
+            <Route path="/Tasty_Bites_assignment_VirtuNexa_3/upload" element={<UploadRecipe />} />
+            <Route path="/Tasty_Bites_assignment_VirtuNexa_3/search" element={<Search />} />
           </Routes>
         </main>
         <Footer />

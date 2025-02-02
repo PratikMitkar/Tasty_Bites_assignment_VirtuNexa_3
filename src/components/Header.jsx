@@ -6,7 +6,7 @@ function Header() {
   return (
     <header className="bg-primary-100 shadow-md">
       <div className="container mx-auto px-4 flex justify-between items-center py-4">
-        <Link to="/" className="text-2xl font-bold flex items-center text-primary-300">
+        <Link to="/Tasty_Bites_assignment_VirtuNexa_3/" className="text-2xl font-bold flex items-center text-primary-300">
           <img
             src={logo}
             alt="Tasty Bites Logo"
@@ -17,14 +17,14 @@ function Header() {
         <nav>
           <ul className="flex space-x-6">
             <li>
-              <Link to="/" className="flex items-center text-primary-300 hover:text-primary-200 transition-colors">
+              <Link to="/Tasty_Bites_assignment_VirtuNexa_3/" className="flex items-center text-primary-300 hover:text-primary-200 transition-colors">
                 <Home className="w-5 h-5 mr-1" />
                 Home
               </Link>
             </li>
             <li>
               <Link
-                to="/upload"
+                to="/Tasty_Bites_assignment_VirtuNexa_3/upload"
                 className="flex items-center text-primary-300 hover:text-primary-200 transition-colors"
               >
                 <PlusCircle className="w-5 h-5 mr-1" />
@@ -33,7 +33,7 @@ function Header() {
             </li>
             <li>
               <Link
-                to="/search"
+                to="/Tasty_Bites_assignment_VirtuNexa_3/search"
                 className="flex items-center text-primary-300 hover:text-primary-200 transition-colors"
               >
                 <Search className="w-5 h-5 mr-1" />
